@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Web Designing Guide</title>
+    <link rel="stylesheet" href="./Resources/CSS/style.css">
+    <link rel="stylesheet" href="./Resources/CSS/navigation.css">
+</head>
+
+    <body>       
+
+        <!--Navigation-->
+        <div class="navigation">
+
+            <!--Navigation Overview-->
+            <div class="nav_overview">
+                <h1>Navigation</h1>
+                <p>
+                    The &#60nav&#62 HTML element represents a 
+                    section of a page whose purpose is to provide
+                    navigation links, either within the current
+                    document or to other documents. 
+                    Common examples of navigation sections 
+                    are menus, tables of contents, and indexes.
+                </p>
+            </div>
+
+            <!-- Flexbox -->
+            <br>
+            <div class="nav_container">
+                <div class="nav_section">
+                    <h2>Usage notes</h2>
+                    <p>
+                        It's not necessary for all links to be contained
+                        in a &#60nav&#62 element. &#60nav&#62 is intended only for 
+                        a major block of navigation links; typically 
+                        the &#60footer&#62 element often has a list of links
+                        that don't need to be in a &#60nav&#62 element.
+                        <br><br> A document may have several &#60nav&#62 elements, 
+                        for example, one for site navigation and 
+                        one for intra-page navigation. aria-labelledby
+                        can be used in such case to promote 
+                        accessibility, see example.
+                        <br><br> User agents, such as screen readers 
+                        targeting disabled users, can use this element
+                        to determine whether to omit the initial 
+                        rendering of navigation-only content.
+                    </p>
+                </div>
+                <div class="nav_img">
+                    <img src="https://jenkov.com/images/html5/nav-1.png" alt="Code about navigation">
+                </div>
+            </div>
+
+            <!--Exapmles-->
+            <div class="example_container">
+                <div class="example_section">
+                    <div class="example_description">
+                        <h2>Examples</h2>
+                        <p>
+                            In this example, a &#60nav&#62 block is used to 
+                            contain an unordered list (&#60ul&#62) of links. 
+                            With appropriate CSS, this can be presented 
+                            as a sidebar, navigation bar, or drop-down menu.
+                        </p>
+                    </div>
+                    <div class="example_code">
+                        <span>&#60nav&#62 class="menu"&#62</span>
+                        <ul>
+                            <li>&#60ul&#62</li>
+                            <ul>
+                                <p>                                        
+                                    &#60li&#62&#60a href="#"&#62Home&#60/a&#62&#60/li&#62<br>
+                                    &#60li&#62&#60a href="#"&#62About&#60/a&#62&#60/li&#62<br>
+                                    &#60li&#62&#60a href="#"&#62Contact&#60/a&#62&#60/li&#62
+                                </p>
+                            </ul>
+                            <li>&#60ul&#62</li>
+                        </ul>
+                        <span>&#60nav&#62</span>                                
+                    </div>
+                </div>
+
+
+                <div class="example_section">
+                    <div class="example_description">
+                        <p>
+                            The semantics of the nav element is that of 
+                            providing links. However a nav element doesn't 
+                            have to contain a list, it can contain other
+                            kinds of content as well. In this navigation 
+                            block, links are provided in prose:
+                        </p>
+                    </div>
+                    <div class="example_code">
+                        <span>&#60nav&#62</span>
+                        <ul>
+                            <li>&#60ul&#62</li>
+                            <ul>
+                                <p>                                        
+                                    &#60li&#62&#60a href="#"&#62Home&#60/a&#62&#60/li&#62<br>
+                                    &#60li&#62&#60a href="#"&#62About&#60/a&#62&#60/li&#62<br>
+                                    &#60li&#62&#60a href="#"&#62Contact&#60/a&#62&#60/li&#62
+                                </p>
+                            </ul>
+                            <li>&#60ul&#62</li>
+                        </ul>
+                        <span>&#60nav&#62</span>                              
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </body>
+    
+    <footer>
+
+    </footer>
+</html>
