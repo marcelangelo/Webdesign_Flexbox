@@ -1,21 +1,21 @@
-.navigation h1{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
-}
-
+/*nav_overview*/
 .nav_overview{
+    padding-top: 75px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-content: center;
+    align-items: center;
+    min-width: 890px;
+    max-width: 1200px;
+}
+
+.nav_overview h1{
     text-align: center;
 }
 
 .nav_overview p{
-    margin-top: -20px;
-    font-size: 25px;
+    font-size: 24px;
+    margin: -20px 15px 50px 15px;
+    text-align: center;
 }
 
 /*nav_container*/
@@ -29,7 +29,7 @@
 .nav_section{
     width: 55%;
     margin: -20px 20px 20px 20px;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .nav_img{
@@ -49,7 +49,7 @@
 .example_description{
     width: 55%;
     margin: -20px 20px 10px 20px;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .example_code{
