@@ -61,8 +61,8 @@
 
 .example_code{
     background-color: rgb(0, 0, 0);
-    min-width: 420px;
-    max-width: 420px;
+    min-width: 450px;
+    max-width: 450px;
     min-height: 265px;
     max-height: 265px;
     border: solid red 3px;
