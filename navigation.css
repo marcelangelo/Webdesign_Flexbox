@@ -26,6 +26,7 @@
 }
 
 .nav_section{
+    border-top: solid red 3px;
     width: 55%;
     margin: -20px 20px 20px 20px;
     font-size: 22px;
@@ -46,6 +47,13 @@
 }
 
 .example_description{
+    border-top: solid red 3px;
+    width: 55%;
+    margin: -20px 20px 10px 20px;
+    font-size: 22px;
+}
+
+.example_description_2{
     width: 55%;
     margin: -20px 20px 10px 20px;
     font-size: 22px;
@@ -55,8 +63,8 @@
     background-color: rgb(0, 0, 0);
     min-width: 420px;
     max-width: 420px;
-    min-height: 240px;
-    max-height: 240px;
+    min-height: 265px;
+    max-height: 265px;
     border: solid red 3px;
     border-radius: 10px;
     font-size: 20px;
